@@ -1,0 +1,23 @@
+body{
+    background-image: #ccc;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.warpper{
+    
+    width: auto;
+    height: auto;
+    text-align: center;
+   
+    
+}
+
+
+
+@media screen and (min-width :600px){
+    .warpper{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
